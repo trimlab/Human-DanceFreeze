@@ -58,11 +58,9 @@ def main(song):
         logger.info("End " + song + str(i+1))
         if (i < len(pauses[song])):
             time.sleep(pauses[song][i])
-            logger.info("Pause of " + pauses[song][i] + " secs")
-        
+            logger.info("Pause of " + str(pauses[song][i]) + " secs")
 
- 
-if __name__ == "__main__":
+
+if __name__ == "__main__": 
     arguments = docopt(__doc__)
     main(arguments['SONG'])
-    
