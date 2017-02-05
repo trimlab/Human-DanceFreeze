@@ -19,7 +19,7 @@ import playwav
 
 songparts =    {'Berceuse': 5,
                 'Twinkle': 5,
-                'Tisket': 5, 
+                'Tisket': 4, 
                 'Waltz': 4}
 
 pauses =    {'Berceuse': [3, 2, 4, 2],
